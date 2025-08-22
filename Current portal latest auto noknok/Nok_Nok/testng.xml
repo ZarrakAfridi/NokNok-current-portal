@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="Extent.Extent_listener" />
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/I-Eng/IdeaProjects/Nok_Nok">
+        <classes>
+            <!-- Class 1 -->
+            <class name="org.example.BundlePromotion">
+<!--                <methods>-->
+<!--                    <include name="Start"/>-->
+<!--                    <include name="LoginPortal"/>-->
+<!--                    <include name="Order"/>-->
+<!--                    <include name="scrollToBottom"/>-->
+<!--                    <include name="scrollToTop"/>-->
+<!--                    <include name="SearchOrder"/>-->
+<!--                    <include name="scrollToBottom1"/>-->
+<!--                    <include name="scrollToTop1"/>-->
+<!--                    <include name="ProductsTab"/>-->
+<!--                    <include name="scrollToBottom1"/>-->
+<!--                    <include name="scrollToTop1"/>-->
+<!--                    <include name="ProductsTab2"/>-->
+<!--                </methods>-->
+            </class>
+
+            <!-- Class 2 -->
+            <class name="org.example.BundlePromotion">
+<!--                <methods>-->
+<!--&lt;!&ndash;                    <include name="LoginPortal"/>&ndash;&gt;-->
+<!--                </methods>-->
+            </class>
+
+<!--            &lt;!&ndash; Class 3 &ndash;&gt;-->
+<!--            <class name="org.example.Home_Page">-->
+<!--                <methods>-->
+<!--                    <include name=""/>-->
+<!--                    <include name=""/>-->
+<!--                </methods>-->
+<!--            </class>-->
+
+<!--            <class name="org.example.Promotion">-->
+<!--                <methods>-->
+<!--                    <include name=""/>-->
+<!--                    <include name=""/>-->
+<!--                </methods>-->
+<!--            </class>-->
+
+            <class name="org.example.BrandMerchant">
+                <methods>
+<!--                    <include name="LoginPortal"/>-->
+<!--                    <include name=""/>-->
+                </methods>
+            </class>
+
+<!--            <class name="org.example.Store">-->
+<!--                <methods>-->
+<!--                    <include name=""/>-->
+<!--                    <include name=""/>-->
+<!--                </methods>-->
+<!--            </class>-->
+
+<!--            <class name="org.example.Support">-->
+<!--                <methods>-->
+<!--                    <include name=""/>-->
+<!--                    <include name=""/>-->
+<!--                </methods>-->
+<!--            </class>-->
+
+<!--            <class name="org.example.Marketing">-->
+<!--                <methods>-->
+<!--                    <include name=""/>-->
+<!--                    <include name=""/>-->
+<!--                </methods>-->
+<!--            </class>-->
+
+<!--            <class name="org.example.Configuration">-->
+<!--            <methods>-->
+<!--                <include name=""/>-->
+<!--                <include name=""/>-->
+<!--            </methods>-->
+<!--        </class>-->
+
+<!--            <class name="org.example.Report">-->
+<!--            <methods>-->
+<!--                <include name=""/>-->
+<!--                <include name=""/>-->
+<!--            </methods>-->
+<!--        </class>-->
+
+<!--            <class name="org.example.Setting">-->
+<!--                <methods>-->
+<!--                    <include name=""/>-->
+<!--                    <include name=""/>-->
+<!--                </methods>-->
+<!--            </class>-->
+
+
+        </classes>
+    </test>
+</suite>

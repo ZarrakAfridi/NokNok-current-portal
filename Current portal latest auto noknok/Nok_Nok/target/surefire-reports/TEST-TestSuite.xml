@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="141.425" tests="14" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+    <property name="java.class.path" value="C:\Users\I-Eng\IdeaProjects\Nok_Nok\target\test-classes;C:\Users\I-Eng\IdeaProjects\Nok_Nok\target\classes;C:\Users\I-Eng\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\I-Eng\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\I-Eng\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\I-Eng\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\I-Eng\.m2\repository\org\seleniumhq\selenium\selenium-java\4.12.1\selenium-java-4.12.1.jar;C:\Users\I-Eng\.m2\repository\org\seleniumhq\selenium\selenium-api\4.12.1\selenium-api-4.12.1.jar;C:\Users\I-Eng\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.12.1\selenium-chrome-driver-4.12.1.jar;C:\Users\I-Eng\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\I-Eng\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.12.1\selenium-chromium-driver-4.12.1.jar;C:\Users\I-Eng\.m2\repository\org\seleniumhq\selenium\selenium-json\4.12.1\selenium-json-4.12.1.jar;C:\Users\I-Eng\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.12.1\selenium-manager-4.12.1.jar;C:\Users\I-Eng\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v114\4.12.1\selenium-devtools-v114-4.12.1.jar;C:\Users\I-Eng\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v115\4.12.1\selenium-devtools-v115-4.12.1.jar;C:\Users\I-Eng\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v116\4.12.1\selenium-devtools-v116-4.12.1.jar;C:\Users\I-Eng\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.12.1\selenium-devtools-v85-4.12.1.jar;C:\Users\I-Eng\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.12.1\selenium-edge-driver-4.12.1.jar;C:\Users\I-Eng\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.12.1\selenium-firefox-driver-4.12.1.jar;C:\Users\I-Eng\.m2\repository\org\seleniumhq\selenium\selenium-http\4.12.1\selenium-http-4.12.1.jar;C:\Users\I-Eng\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\I-Eng\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.12.1\selenium-ie-driver-4.12.1.jar;C:\Users\I-Eng\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.12.1\selenium-remote-driver-4.12.1.jar;C:\Users\I-Eng\.m2\repository\io\netty\netty-buffer\4.1.96.Final\netty-buffer-4.1.96.Final.jar;C:\Users\I-Eng\.m2\repository\io\netty\netty-codec-http\4.1.96.Final\netty-codec-http-4.1.96.Final.jar;C:\Users\I-Eng\.m2\repository\io\netty\netty-codec\4.1.96.Final\netty-codec-4.1.96.Final.jar;C:\Users\I-Eng\.m2\repository\io\netty\netty-handler\4.1.96.Final\netty-handler-4.1.96.Final.jar;C:\Users\I-Eng\.m2\repository\io\netty\netty-common\4.1.96.Final\netty-common-4.1.96.Final.jar;C:\Users\I-Eng\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.96.Final\netty-transport-classes-epoll-4.1.96.Final.jar;C:\Users\I-Eng\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.96.Final\netty-transport-classes-kqueue-4.1.96.Final.jar;C:\Users\I-Eng\.m2\repository\io\netty\netty-transport-native-epoll\4.1.96.Final\netty-transport-native-epoll-4.1.96.Final.jar;C:\Users\I-Eng\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.96.Final\netty-transport-native-kqueue-4.1.96.Final.jar;C:\Users\I-Eng\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final.jar;C:\Users\I-Eng\.m2\repository\io\netty\netty-transport\4.1.96.Final\netty-transport-4.1.96.Final.jar;C:\Users\I-Eng\.m2\repository\io\netty\netty-resolver\4.1.96.Final\netty-resolver-4.1.96.Final.jar;C:\Users\I-Eng\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\I-Eng\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\I-Eng\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\I-Eng\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\I-Eng\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\I-Eng\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\I-Eng\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\I-Eng\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\I-Eng\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\I-Eng\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\I-Eng\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\I-Eng\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\I-Eng\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\I-Eng\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\I-Eng\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\I-Eng\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\I-Eng\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\I-Eng\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\I-Eng\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\I-Eng\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\I-Eng\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\I-Eng\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\I-Eng\.m2\repository\org\seleniumhq\selenium\selenium-os\4.12.1\selenium-os-4.12.1.jar;C:\Users\I-Eng\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\I-Eng\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.12.1\selenium-safari-driver-4.12.1.jar;C:\Users\I-Eng\.m2\repository\org\seleniumhq\selenium\selenium-support\4.12.1\selenium-support-4.12.1.jar;C:\Users\I-Eng\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\I-Eng\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\I-Eng\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\I-Eng\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\I-Eng\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\I-Eng\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\I-Eng\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\I-Eng\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\I-Eng\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\I-Eng\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\I-Eng\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\I-Eng\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\I-Eng\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\I-Eng\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\I-Eng\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\I-Eng\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\I-Eng\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\I-Eng\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\I-Eng\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\I-Eng\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\I-Eng\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\I-Eng\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\I-Eng\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\I-Eng\.m2\repository\org\apache\logging\log4j\log4j-core\2.21.0\log4j-core-2.21.0.jar;C:\Users\I-Eng\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\I-Eng\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\I-Eng\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\I-Eng\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\I-Eng\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\I-Eng\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\I-Eng\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\I-Eng\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\I-Eng\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\I-Eng\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\I-Eng\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\I-Eng\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\I-Eng\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\I-Eng\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\I-Eng\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\I-Eng\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Karachi"/>
+    <property name="user.country.format" value="PK"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\I-Eng\AppData\Local\Temp\surefire18371329266347249875\surefirebooter-20250130173907777_3.jar C:\Users\I-Eng\AppData\Local\Temp\surefire18371329266347249875 2025-01-30T17-39-07_582-jvmRun1 surefire-20250130173907777_1tmp surefire_0-20250130173907777_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\I-Eng\IdeaProjects\Nok_Nok\target\test-classes;C:\Users\I-Eng\IdeaProjects\Nok_Nok\target\classes;C:\Users\I-Eng\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\I-Eng\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\I-Eng\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\I-Eng\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\I-Eng\.m2\repository\org\seleniumhq\selenium\selenium-java\4.12.1\selenium-java-4.12.1.jar;C:\Users\I-Eng\.m2\repository\org\seleniumhq\selenium\selenium-api\4.12.1\selenium-api-4.12.1.jar;C:\Users\I-Eng\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.12.1\selenium-chrome-driver-4.12.1.jar;C:\Users\I-Eng\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\I-Eng\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.12.1\selenium-chromium-driver-4.12.1.jar;C:\Users\I-Eng\.m2\repository\org\seleniumhq\selenium\selenium-json\4.12.1\selenium-json-4.12.1.jar;C:\Users\I-Eng\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.12.1\selenium-manager-4.12.1.jar;C:\Users\I-Eng\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v114\4.12.1\selenium-devtools-v114-4.12.1.jar;C:\Users\I-Eng\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v115\4.12.1\selenium-devtools-v115-4.12.1.jar;C:\Users\I-Eng\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v116\4.12.1\selenium-devtools-v116-4.12.1.jar;C:\Users\I-Eng\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.12.1\selenium-devtools-v85-4.12.1.jar;C:\Users\I-Eng\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.12.1\selenium-edge-driver-4.12.1.jar;C:\Users\I-Eng\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.12.1\selenium-firefox-driver-4.12.1.jar;C:\Users\I-Eng\.m2\repository\org\seleniumhq\selenium\selenium-http\4.12.1\selenium-http-4.12.1.jar;C:\Users\I-Eng\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\I-Eng\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.12.1\selenium-ie-driver-4.12.1.jar;C:\Users\I-Eng\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.12.1\selenium-remote-driver-4.12.1.jar;C:\Users\I-Eng\.m2\repository\io\netty\netty-buffer\4.1.96.Final\netty-buffer-4.1.96.Final.jar;C:\Users\I-Eng\.m2\repository\io\netty\netty-codec-http\4.1.96.Final\netty-codec-http-4.1.96.Final.jar;C:\Users\I-Eng\.m2\repository\io\netty\netty-codec\4.1.96.Final\netty-codec-4.1.96.Final.jar;C:\Users\I-Eng\.m2\repository\io\netty\netty-handler\4.1.96.Final\netty-handler-4.1.96.Final.jar;C:\Users\I-Eng\.m2\repository\io\netty\netty-common\4.1.96.Final\netty-common-4.1.96.Final.jar;C:\Users\I-Eng\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.96.Final\netty-transport-classes-epoll-4.1.96.Final.jar;C:\Users\I-Eng\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.96.Final\netty-transport-classes-kqueue-4.1.96.Final.jar;C:\Users\I-Eng\.m2\repository\io\netty\netty-transport-native-epoll\4.1.96.Final\netty-transport-native-epoll-4.1.96.Final.jar;C:\Users\I-Eng\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.96.Final\netty-transport-native-kqueue-4.1.96.Final.jar;C:\Users\I-Eng\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final.jar;C:\Users\I-Eng\.m2\repository\io\netty\netty-transport\4.1.96.Final\netty-transport-4.1.96.Final.jar;C:\Users\I-Eng\.m2\repository\io\netty\netty-resolver\4.1.96.Final\netty-resolver-4.1.96.Final.jar;C:\Users\I-Eng\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\I-Eng\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\I-Eng\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\I-Eng\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\I-Eng\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\I-Eng\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\I-Eng\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\I-Eng\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\I-Eng\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\I-Eng\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\I-Eng\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\I-Eng\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\I-Eng\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\I-Eng\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\I-Eng\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\I-Eng\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\I-Eng\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\I-Eng\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\I-Eng\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\I-Eng\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\I-Eng\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\I-Eng\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\I-Eng\.m2\repository\org\seleniumhq\selenium\selenium-os\4.12.1\selenium-os-4.12.1.jar;C:\Users\I-Eng\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\I-Eng\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.12.1\selenium-safari-driver-4.12.1.jar;C:\Users\I-Eng\.m2\repository\org\seleniumhq\selenium\selenium-support\4.12.1\selenium-support-4.12.1.jar;C:\Users\I-Eng\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\I-Eng\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\I-Eng\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\I-Eng\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\I-Eng\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\I-Eng\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\I-Eng\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\I-Eng\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\I-Eng\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\I-Eng\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\I-Eng\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\I-Eng\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\I-Eng\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\I-Eng\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\I-Eng\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\I-Eng\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\I-Eng\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\I-Eng\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\I-Eng\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\I-Eng\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\I-Eng\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\I-Eng\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\I-Eng\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\I-Eng\.m2\repository\org\apache\logging\log4j\log4j-core\2.21.0\log4j-core-2.21.0.jar;C:\Users\I-Eng\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\I-Eng\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\I-Eng\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\I-Eng\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\I-Eng\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\I-Eng\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\I-Eng\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\I-Eng\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\I-Eng\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\I-Eng\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\I-Eng\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\I-Eng\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\I-Eng\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\I-Eng\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\I-Eng\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\I-Eng\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\I-Eng"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\I-Eng\IdeaProjects\Nok_Nok"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\I-Eng\AppData\Local\Temp\surefire18371329266347249875\surefirebooter-20250130173907777_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.4+8-LTS-274"/>
+    <property name="user.name" value="I-Eng"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\I-Eng\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\I-Eng\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.4"/>
+    <property name="user.dir" value="C:\Users\I-Eng\IdeaProjects\Nok_Nok"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-21;C:\Users\I-Eng\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Users\I-Eng\AppData\Local\Microsoft\WindowsApps;C:\Users\I-Eng\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.4+8-LTS-274"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="LoginemptyInvalid" classname="org.example.Main" time="3.817">
+    <system-out><![CDATA[>>>>>>>  Navigating to portal
+>>>>>>>  Total Time for portal process => 2 Seconds
+>>>>>>>  Click on login without putting credential
+>>>>>>>  TC: Validation error showing after clicking for empty credentisls the message is: Username is required.
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Jan 30, 2025 5:39:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 132
+Jan 30, 2025 5:39:12 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 132.0.6834.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="LoginValid" classname="org.example.Main" time="1.134">
+    <system-out><![CDATA[>>>>>>>  TC: Navigate successfully to the login Screen *******
+>>>>>>>  Put email and password :  credentials 
+>>>>>>>  Click on login
+****************** Total Time for login process => 0 Seconds*********************
+>>>>>>>  Total RAM OF SYSTEM: 15 GB
+>>>>>>>  Free RAM OF SYSTEM: 3 GB
+>>>>>>>  Used RAM OF SYSTEM: 12 GB
+>>>>>>>  Total Chrome Memory Usage when we open New NOKNOK portal: 7856 MB
+]]></system-out>
+  </testcase>
+  <testcase name="Order" classname="org.example.Main" time="12.84">
+    <system-out><![CDATA[>>>>>>>  TC: Navigate successfully to the dashboard screen after login *******
+>>>>>>>  TC: Navigate successfully to the dashboard screen after login *******
+>>>>>>>  Open Order tab
+>>>> Screen Scrolled to bottom , and bottom to top
+>>>> Screen Scrolled to bottom , and bottom to top
+]]></system-out>
+  </testcase>
+  <testcase name="SearchOrder" classname="org.example.Main" time="6.525">
+    <system-out><![CDATA[>>>>>>>  Dropdown clicked to display options
+>>>>>>>  Selected 'Test Store' from the dropdown
+>>>>>>>  Search for customer Order id
+]]></system-out>
+  </testcase>
+  <testcase name="ProductsTab" classname="org.example.Main" time="11.124">
+    <system-out><![CDATA[>>>>>>>  View order detail via View Button
+>>>>>>>  TC: Navigate successfully on searched order id ******* Zarrak Afridi 40223887584
+>>>> Screen Scrolled to bottom , and bottom to top
+>>>> Screen Scrolled to bottom , and bottom to top
+]]></system-out>
+  </testcase>
+  <testcase name="ProductsTab2" classname="org.example.Main" time="15.828">
+    <system-out><![CDATA[>>>>>>>  TC: Navigate successfully to the product detail screen *******
+>>>>>>> Total Price Now is: Total 730,088L.L. $8.14
+>>>>>>>  Edit the order products
+>>>>>>>  Increased quantity of product to 2
+>>>>>>>  Click on save products
+>>>>>>>  Add products
+>>>>>>>  Search products for adding
+>>>>>>>  Cross modal
+Save button clicked for product 
+>>>>>>>  Select YES ! I am sure to save the change ,from modal
+>>>>>>> Name of ordered Items is : Barilla Basilico Sauce - 400g
+>>>>>>> New Total Price is: Total 730,088L.L. $8.14
+>>>>>>> Old Total Price was : Total 730,088L.L. $8.14
+>>>>>>> New Total Price is: Total 730,088L.L. $8.14
+Price remains the same: Total 730,088L.L. $8.14
+>>>>>>>  Click on confirm order
+>>>>>>>  Click on Yes in popop for order confirmation
+>>>>>>>  Click on Order list
+]]></system-out>
+  </testcase>
+  <testcase name="MapSection" classname="org.example.Main" time="22.013">
+    <failure message="Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/app-root/app-dashboard/div/div/div/div[2]/div[3]/app-orders-map/div/div/div/div[2]/div/div/div/app-orders-map-tracking-view/div/div/ngui-map/div/div/div[3]/div[7]/div/div/div/button[1] (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\I-Eng\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64546}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64546/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: ddd3a4f0b4cafcdf74822d227250d71b" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/app-root/app-dashboard/div/div/div/div[2]/div[3]/app-orders-map/div/div/div/div[2]/div/div/div/app-orders-map-tracking-view/div/div/ngui-map/div/div/div[3]/div[7]/div/div/div/button[1] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\I-Eng\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64546}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64546/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ddd3a4f0b4cafcdf74822d227250d71b
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at org.example.Main.MapSection(Main.java:481)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[>>>>>>>  Map tab in order is opened
+>>>>>>>  Map drop down opened
+>>>>>>>  Selected 'Test Store' from the dropdown
+>>>>>>> Name of store: Test Store
+]]></system-out>
+  </testcase>
+  <testcase name="Logout" classname="org.example.Main" time="0.829">
+    <system-out><![CDATA[>>>>>>>  Click on profile of Admin
+>>>>>>>  Click on Logout
+]]></system-out>
+  </testcase>
+  <testcase name="LoginPortal" classname="org.example.Merchant" time="5.969">
+    <system-out><![CDATA[>>>>  Total Time for portal process - 1 Seconds
+>>>>  Put email and password: credentials
+>>>>  Click on login
+>>>>  ******************Total Time for login process - 3 Seconds*********************
+>>>>  Total RAM OF SYSTEM: 15 GB
+>>>>  Free RAM OF SYSTEM: 3 GB
+>>>>  Used RAM OF SYSTEM: 12 GB
+>>>>  Total Chrome Memory Usage when we open New NOKNOK portal: 8312 MB
+>>>>  Open Merchant Tab
+>>>>  Search for merchant
+]]></system-out>
+    <system-err><![CDATA[Jan 30, 2025 5:40:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 132
+Jan 30, 2025 5:40:27 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 132.0.6834.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="MerchantTabCreat" classname="org.example.Merchant" time="5.353">
+    <system-out><![CDATA[Open Merchant Tab
+>>>> Create new Merchant 
+>>>> Put Company name Contact num and Primary Contact number for Merchant
+>>>> Contact Name email and email: credentials
+-->> Pin Area for Merchant
+>>>>>>> Popop opend for : Pin Area
+>>>> Enter the location name
+-->> Close the location popop
+-->> Close the Add contact popop
+]]></system-out>
+  </testcase>
+  <testcase name="OpenMerchant" classname="org.example.Merchant" time="11.042">
+    <system-out><![CDATA[>>>>  Open Merhcant
+>>>> Screen Scrolled to bottom , and bottom to top
+>>>> Screen Scrolled to bottom , and bottom to top
+]]></system-out>
+  </testcase>
+  <testcase name="EditMerchnt" classname="org.example.Merchant" time="5.75">
+    <failure message="class java.lang.Double cannot be cast to class java.lang.Long (java.lang.Double and java.lang.Long are in module java.base of loader &apos;bootstrap&apos;)" type="java.lang.ClassCastException"><![CDATA[java.lang.ClassCastException: class java.lang.Double cannot be cast to class java.lang.Long (java.lang.Double and java.lang.Long are in module java.base of loader 'bootstrap')
+	at org.example.Merchant.scrollToTop1(Merchant.java:290)
+	at org.example.Merchant.EditMerchnt(Merchant.java:257)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[>>>>  Edit the merchant information
+>>>>  Test Notes................... in merchant edit information
+>>>>  Save the merchant information after edit
+>>>>  Scrolled to the bottom of the page
+]]></system-out>
+  </testcase>
+  <testcase name="Addcontact" classname="org.example.Merchant" time="6.386">
+    <failure message="element click intercepted: Element &lt;td aria-expanded=&quot;false&quot; class=&quot;pointer white-space-nowrap&quot; data-toggle=&quot;dropdown&quot;&gt;...&lt;/td&gt; is not clickable at point (1471, 337). Other element would receive the click: &lt;input class=&quot;form-control ng-dirty ng-valid ng-touched&quot; formcontrolname=&quot;email&quot; placeholder=&quot;Email&quot; type=&quot;text&quot;&gt;&#10;  (Session info: chrome=132.0.6834.111)&#10;Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [68a5d3e080460096a61763d4e7f33b44, clickElement {id=f.F0A7F73C650679EF3677B485DA4DA506.d.373A4921146153D44CDB35DABC8E23BA.e.279}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\I-Eng\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64620}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64620/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (68a5d3e080460096a61763d4e7f33b44)] -&gt; xpath: /html/body/app-root/app-dashboard/div/div/div/div[2]/div[3]/app-merchant-view/div/div/div/div[2]/div/div/div/app-information/div[2]/div/div/div/div/div/app-contact-list/p-table/div/div/table/tbody/tr[1]/td[6]]&#10;Session ID: 68a5d3e080460096a61763d4e7f33b44" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <td aria-expanded="false" class="pointer white-space-nowrap" data-toggle="dropdown">...</td> is not clickable at point (1471, 337). Other element would receive the click: <input class="form-control ng-dirty ng-valid ng-touched" formcontrolname="email" placeholder="Email" type="text">
+  (Session info: chrome=132.0.6834.111)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [68a5d3e080460096a61763d4e7f33b44, clickElement {id=f.F0A7F73C650679EF3677B485DA4DA506.d.373A4921146153D44CDB35DABC8E23BA.e.279}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\I-Eng\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64620}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64620/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (68a5d3e080460096a61763d4e7f33b44)] -> xpath: /html/body/app-root/app-dashboard/div/div/div/div[2]/div[3]/app-merchant-view/div/div/div/div[2]/div/div/div/app-information/div[2]/div/div/div/div/div/app-contact-list/p-table/div/div/table/tbody/tr[1]/td[6]]
+Session ID: 68a5d3e080460096a61763d4e7f33b44
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.example.Merchant.Addcontact(Merchant.java:365)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[>>>>  Click on add contact button
+>>>>  Add contact name in field
+>>>>  Add contact number in field
+>>>>  Add email in field box
+>>>>  Dropdown opened
+Error selecting option: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.111)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [68a5d3e080460096a61763d4e7f33b44, getElementText {id=f.F0A7F73C650679EF3677B485DA4DA506.d.373A4921146153D44CDB35DABC8E23BA.e.390}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\I-Eng\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64620}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64620/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (68a5d3e080460096a61763d4e7f33b44)] -> xpath: //ng-dropdown-panel//div[contains(@class,'ng-option')]]
+Session ID: 68a5d3e080460096a61763d4e7f33b44
+>>>>  Click on submit contact details
+]]></system-out>
+  </testcase>
+  <testcase name="ProductSection" classname="org.example.Merchant" time="26.812">
+    <failure message="Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/ngb-modal-window/div/div/app-add-contact/div[2]/div/div/div/div/form/div[5]/button (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\I-Eng\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64620}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64620/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 68a5d3e080460096a61763d4e7f33b44" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/ngb-modal-window/div/div/app-add-contact/div[2]/div/div/div/div/form/div[5]/button (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\I-Eng\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64620}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64620/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 68a5d3e080460096a61763d4e7f33b44
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at org.example.Merchant.ProductSection(Merchant.java:476)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[>>>>  Click on Product section in merchant
+>>>>  Click on Add Product in section 
+>>>>  Enter the name of Product 
+>>>>  Enter the name of DESCRIPTION 
+>>>>  Enter the name of SKU 
+>>>>  Enter the commiion 
+>>>>  Enter VAT 
+>>>>  Click on New secton in product
+>>>>  Enter Section name 
+>>>>  Enter VAT 
+>>>>  Enter description for section 
+>>>>  Selct on Free checkboc
+>>>>  New item addition
+>>>>  select otem from list
+>>>>  Close tab
+]]></system-out>
+  </testcase>
+</testsuite>
